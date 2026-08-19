@@ -1,26 +1,16 @@
 {
-    "configurations": [
-        {
-            "cwd": "${workspaceFolder}",
-            "executable": "${command:cmake.launchTargetPath}",
-            "name": "Debug with ST-Link",
-            "request": "launch",
-            "type": "cortex-debug",
-            "runToEntryPoint": "main",
-            "showDevDebugOutput": "none",
-            "servertype": "stlink"
-        },
-        {
-            "name": "Debug with OpenOCD",
-            "cwd": "${workspaceRoot}",
-            "executable": "${command:cmake.launchTargetPath}",
-            "request": "launch",
-            "type": "cortex-debug",
-            "runToEntryPoint": "main",
-            "servertype": "openocd",
-            "configFiles": ["openocd.cfg"],
-            "searchDir": [],
-            // "showDevDebugOutput": "none"
-        }
-    ]
+  "configurations": [
+    {
+      "name": "Debug with OpenOCD",
+      "cwd": "${workspaceRoot}",
+      "executable": "${command:cmake.launchTargetPath}",
+      "request": "launch",
+      "type": "cortex-debug",
+      "runToEntryPoint": "main",
+      "servertype": "openocd",
+      "configFiles": ["openocd.cfg"],
+      "searchDir": []
+      // "showDevDebugOutput": "none"
+    }
+  ]
 }
