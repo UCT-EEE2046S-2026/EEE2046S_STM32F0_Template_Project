@@ -1,0 +1,13 @@
+{
+    "recommendations": [
+        "xaver.clang-format",
+        "dan-c-underwood.arm",
+        "ms-vscode.cpptools-extension-pack",
+        "ms-vscode.cmake-tools",
+        "ms-vscode.hexeditor",
+        "vscode-icons-team.vscode-icons",
+        "redhat.vscode-yaml",
+        "ibm.output-colorizer",
+        "marus25.cortex-debug"
+    ]
+}

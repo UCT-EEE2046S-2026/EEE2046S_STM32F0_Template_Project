@@ -1,0 +1,74 @@
+# Style Options: https://clang.llvm.org/docs/ClangFormatStyleOptions.html
+
+Language: Cpp
+
+BasedOnStyle: LLVM
+Standard: c++17
+
+ColumnLimit: 90
+ReflowComments: true
+
+IndentWidth: 4
+TabWidth: 4
+UseTab: Always
+
+SortIncludes: CaseInsensitive
+SortUsingDeclarations: LexicographicNumeric
+
+IndentPPDirectives: BeforeHash
+# IndentCaseLabels: true
+# IndentExternBlock: NoIndent
+
+AlignConsecutiveMacros:
+    Enabled: true
+    AcrossEmptyLines: false
+    AcrossComments: true
+    AlignCompound: true
+    PadOperators: true
+
+AlignConsecutiveAssignments:
+    Enabled: true
+    AcrossEmptyLines: false
+    AcrossComments: true
+    PadOperators: true
+
+AlignConsecutiveDeclarations:
+    Enabled: true
+    AcrossEmptyLines: false
+    AcrossComments: true
+
+AlignConsecutiveBitFields:
+    Enabled: true
+
+AlignOperands: AlignAfterOperator
+AlignEscapedNewlines: Right
+AlignAfterOpenBracket: BlockIndent
+AlignTrailingComments:
+    Kind: Always
+    OverEmptyLines: 0
+
+AllowAllArgumentsOnNextLine: false
+AllowAllParametersOfDeclarationOnNextLine: false
+
+AllowShortFunctionsOnASingleLine: Inline
+AllowShortBlocksOnASingleLine: Always
+AllowShortIfStatementsOnASingleLine: AllIfsAndElse
+
+BinPackArguments: false
+BinPackParameters: false
+
+AlwaysBreakAfterReturnType: None
+AlwaysBreakTemplateDeclarations: MultiLine
+
+BreakBeforeBinaryOperators: NonAssignment
+BreakBeforeTernaryOperators: true
+# BreakConstructorInitializers: AfterColon
+BreakInheritanceList: AfterComma
+
+AccessModifierOffset: -4
+EmptyLineBeforeAccessModifier: LogicalBlock
+
+InsertTrailingCommas: Wrapped
+InsertNewlineAtEOF: true
+
+FixNamespaceComments: true
