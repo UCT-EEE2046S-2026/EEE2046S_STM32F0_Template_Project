@@ -1,6 +1,6 @@
-# SISPS-PV
+# EEE2046S_STM32F0_Template_Project
 
-uUCT EEE2046S Template Project for the UCT Developemnt Board
+UCT EEE2046S Template Project for the UCT Developemnt Board.
 
 ## Overview
 
